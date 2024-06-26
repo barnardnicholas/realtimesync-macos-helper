@@ -5,7 +5,7 @@ This is a small project to streamline the process of synchronizing folders on Ma
 FreeFileSync is a free, open-source, cross-platform data management program, available from [https://freefilesync.org/](https://freefilesync.org/), which makes it easy to copy large amounts of data between folders and synchronize files between them.
 RealTimeSync is a lightweight helper tool which watches a folder for changes and triggers FreeFileSync to differentially copy data to synchronize a second folder with the first.
 
-The out-of-the-box workflow of RealTimeSync is a little too involved for some users. It involves conifguring a synchronization task in FreeFileSync, exporting the task as a batch file and manually loading it into RealTimeSync, whereupon the real-time update process would begin. RealTimeSync can be automated using MacOS Calendar events, but the source/destination folders must be preset, ahead-of-time.
+The out-of-the-box workflow of RealTimeSync is a little too involved for some users. It involves configuring a synchronization task in FreeFileSync, exporting the task as a batch file and manually loading it into RealTimeSync, whereupon the real-time update process would begin. RealTimeSync can be automated using MacOS Calendar events, but the source/destination folders must be preset, ahead-of-time.
 
 Our use case required non-tech-savvy users to be able to start and stop periods of real-time synchronization on folders which would be different from one day to the next, preferably with as simple-a-workflow as possible, on MacOS. So I created a helper app using AppleScript.
 
